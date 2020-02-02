@@ -19,6 +19,19 @@ class MainCoordinator: Coordinator {
     
     func start() {
         let vc = ViewController.instantiate()
+        vc.delegate = self
+        navController.pushViewController(vc, animated: true)
+    }
+}
+
+extension MainCoordinator: ViewControllerDelegate {
+    func changeOrangeVC() {
+        let vc = OrangeViewController.instantiate()
+        navController.pushViewController(vc, animated: true)
+    }
+    
+    func changeBlueVC() {
+        let vc = BlueViewController.instantiate()
         navController.pushViewController(vc, animated: true)
     }
     

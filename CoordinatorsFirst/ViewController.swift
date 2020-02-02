@@ -8,13 +8,30 @@
 
 import UIKit
 
+protocol ViewControllerDelegate: class {
+    func changeOrangeVC()
+    func changeBlueVC()
+}
+
 class ViewController: UIViewController, Storyboarded {
+    
+    @IBOutlet weak var orangeButton: UIButton!
+    @IBOutlet weak var blueButton: UIButton!
+    
+    var delegate: ViewControllerDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        orangeButton.addTarget(self, action: #selector(orangePressed), for: .touchUpInside)
+        blueButton.addTarget(self, action: #selector(bluePressed), for: .touchUpInside)
     }
-
-
+    
+    @objc func orangePressed(){
+        delegate?.changeOrangeVC()
+    }
+    
+    @objc func bluePressed(){
+        delegate?.changeBlueVC()
+    }
 }
 

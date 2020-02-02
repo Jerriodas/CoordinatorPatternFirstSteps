@@ -16,6 +16,8 @@
 		0B6F366223E64229002904AC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F366123E64229002904AC /* Coordinator.swift */; };
 		0B6F366423E6431D002904AC /* Storyboarder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F366323E6431D002904AC /* Storyboarder.swift */; };
 		0B6F366623E645B7002904AC /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F366523E645B7002904AC /* MainCoordinator.swift */; };
+		0B6F366823E65266002904AC /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F366723E65266002904AC /* OrangeViewController.swift */; };
+		0B6F366A23E65275002904AC /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6F366923E65275002904AC /* BlueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		0B6F366123E64229002904AC /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		0B6F366323E6431D002904AC /* Storyboarder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarder.swift; sourceTree = "<group>"; };
 		0B6F366523E645B7002904AC /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		0B6F366723E65266002904AC /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
+		0B6F366923E65275002904AC /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +69,15 @@
 				0B6F364D23E64010002904AC /* AppDelegate.swift */,
 				0B6F364F23E64010002904AC /* SceneDelegate.swift */,
 				0B6F365123E64010002904AC /* ViewController.swift */,
+				0B6F366723E65266002904AC /* OrangeViewController.swift */,
+				0B6F366923E65275002904AC /* BlueViewController.swift */,
+				0B6F366523E645B7002904AC /* MainCoordinator.swift */,
 				0B6F365323E64010002904AC /* Main.storyboard */,
 				0B6F365623E64016002904AC /* Assets.xcassets */,
 				0B6F365823E64016002904AC /* LaunchScreen.storyboard */,
 				0B6F365B23E64016002904AC /* Info.plist */,
 				0B6F366123E64229002904AC /* Coordinator.swift */,
 				0B6F366323E6431D002904AC /* Storyboarder.swift */,
-				0B6F366523E645B7002904AC /* MainCoordinator.swift */,
 			);
 			path = CoordinatorsFirst;
 			sourceTree = "<group>";
@@ -149,9 +155,11 @@
 			files = (
 				0B6F366223E64229002904AC /* Coordinator.swift in Sources */,
 				0B6F366623E645B7002904AC /* MainCoordinator.swift in Sources */,
+				0B6F366A23E65275002904AC /* BlueViewController.swift in Sources */,
 				0B6F366423E6431D002904AC /* Storyboarder.swift in Sources */,
 				0B6F365223E64010002904AC /* ViewController.swift in Sources */,
 				0B6F364E23E64010002904AC /* AppDelegate.swift in Sources */,
+				0B6F366823E65266002904AC /* OrangeViewController.swift in Sources */,
 				0B6F365023E64010002904AC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
